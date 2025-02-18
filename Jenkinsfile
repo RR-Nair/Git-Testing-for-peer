@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'git@github.com:username/repo.git'
+                git 'git@github.com:RR-Nair/Git-Testing-for-peer.git'
             }
         }
 
